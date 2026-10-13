@@ -1,0 +1,270 @@
+/* AssistantLabs admin screens. Sits on top of WordPress admin styles. */
+
+.assistantlabs .assistantlabs-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.assistantlabs-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 8px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	margin: 16px 0;
+	max-width: 960px;
+	padding: 20px 24px;
+	box-sizing: border-box;
+}
+
+.assistantlabs-card h2 {
+	margin-top: 0;
+}
+
+.assistantlabs-lead {
+	color: #3c434a;
+	font-size: 14px;
+	max-width: 720px;
+}
+
+.assistantlabs-muted {
+	color: #646970;
+}
+
+.assistantlabs-hero h2 {
+	font-size: 22px;
+	line-height: 1.3;
+}
+
+.assistantlabs-choices {
+	display: grid;
+	gap: 16px;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	margin: 20px 0 12px;
+}
+
+.assistantlabs-choice {
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 16px 18px;
+}
+
+.assistantlabs-choice h3 {
+	margin: 0 0 4px;
+}
+
+.assistantlabs-choice p {
+	color: #50575e;
+	flex: 1;
+	margin: 0 0 14px;
+}
+
+.assistantlabs-choice .button-hero {
+	align-self: flex-start;
+}
+
+.assistantlabs-agent-head {
+	align-items: center;
+	display: flex;
+	gap: 14px;
+	margin-bottom: 14px;
+}
+
+.assistantlabs-agent-head h2 {
+	margin: 0;
+}
+
+.assistantlabs-agent-head .assistantlabs-pill {
+	margin-inline-start: auto;
+}
+
+.assistantlabs-eyebrow {
+	color: #646970;
+	font-size: 12px;
+	letter-spacing: 0.02em;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.assistantlabs-avatar {
+	border-radius: 50%;
+	height: 48px;
+	object-fit: cover;
+	width: 48px;
+}
+
+.assistantlabs-avatar-empty {
+	align-items: center;
+	background: #f0f0f1;
+	color: #4f46e5;
+	display: inline-flex;
+	font-size: 24px;
+	justify-content: center;
+}
+
+.assistantlabs-agent-note {
+	margin: 0 0 14px;
+}
+
+.assistantlabs-links {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.assistantlabs-links .dashicons {
+	font-size: 14px;
+	height: 14px;
+	vertical-align: text-bottom;
+	width: 14px;
+}
+
+.assistantlabs-pill {
+	border-radius: 999px;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 1.8;
+	padding: 0 10px;
+	background: #f0f0f1;
+	color: #3c434a;
+}
+
+.assistantlabs-pill-ok,
+.assistantlabs-pill-published {
+	background: #edfaef;
+	color: #00632b;
+}
+
+.assistantlabs-pill-pending {
+	background: #fcf9e8;
+	color: #8a6116;
+}
+
+.assistantlabs-pill-scheduled {
+	background: #f0f6fc;
+	color: #0a4b78;
+}
+
+.assistantlabs-callout {
+	align-items: center;
+	background: #fcf9e8;
+	border-inline-start: 4px solid #dba617;
+	display: flex;
+	gap: 8px;
+	margin: 12px 0;
+	padding: 10px 12px;
+}
+
+.assistantlabs-grid {
+	display: grid;
+	gap: 12px;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.assistantlabs-tile {
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	color: #1d2327;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.assistantlabs-tile:hover,
+.assistantlabs-tile:focus {
+	border-color: #2271b1;
+	color: #1d2327;
+}
+
+.assistantlabs-tile .dashicons {
+	color: #4f46e5;
+}
+
+.assistantlabs-tile span:last-child {
+	color: #646970;
+}
+
+.assistantlabs-disconnect {
+	max-width: 960px;
+	text-align: end;
+}
+
+.assistantlabs-danger.button-link,
+.assistantlabs-danger.button-link:hover {
+	color: #b32d2e;
+}
+
+.assistantlabs-plugin-list li {
+	align-items: center;
+	display: flex;
+	gap: 6px;
+}
+
+.assistantlabs-ok {
+	color: #00a32a;
+}
+
+.assistantlabs-error {
+	color: #b32d2e;
+	margin: 6px 0 0;
+}
+
+.assistantlabs-empty {
+	color: #646970;
+	padding: 48px 0;
+	text-align: center;
+}
+
+.assistantlabs-empty .dashicons {
+	color: #00a32a;
+	font-size: 40px;
+	height: 40px;
+	width: 40px;
+}
+
+.assistantlabs-changes {
+	margin-top: 12px;
+}
+
+.assistantlabs-changes .column-created,
+.assistantlabs-changes .column-state {
+	width: 160px;
+}
+
+.assistantlabs-changes .column-actions {
+	width: 38%;
+}
+
+.assistantlabs-actions {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.assistantlabs-actions form {
+	margin: 0;
+}
+
+.assistantlabs-schedule {
+	align-items: center;
+	display: inline-flex;
+	gap: 4px;
+}
+
+.assistantlabs-schedule input[type="datetime-local"] {
+	max-width: 190px;
+}
+
+@media screen and (max-width: 782px) {
+	.assistantlabs-changes .column-created,
+	.assistantlabs-changes .column-state,
+	.assistantlabs-changes .column-actions {
+		width: auto;
+	}
+}
