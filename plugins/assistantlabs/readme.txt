@@ -1,5 +1,5 @@
 === AssistantLabs ===
-Contributors: assistantlabs
+Contributors: adivohayon
 Tags: ai chatbot, live chat, ai agent, lead generation, whatsapp
 Requires at least: 6.5
 Tested up to: 7.1

@@ -1,5 +1,5 @@
 === AssistantLabs for WooCommerce ===
-Contributors: assistantlabs
+Contributors: adivohayon
 Tags: woocommerce, ai chatbot, ai agent, whatsapp, customer support
 Requires at least: 6.5
 Tested up to: 7.1
